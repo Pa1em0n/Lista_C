@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <assert.h>
 #include <stdio.h>
+
 struct node_struct{
 	int valor;
 	struct node_struct* sig;
