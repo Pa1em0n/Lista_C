@@ -5,7 +5,7 @@
 int main(void){
 	int i;
 	struct node_struct * l = NULL;
-	for(i = 0; i < 10; i++){
+	for(i = 0; i < 1000; i++){
 		struct node_struct * nuevo ;
 		nuevo = newNode(i);
 		nuevo->sig = l;
@@ -38,3 +38,4 @@ int main(void){
 
 	return 0;
 }
+
